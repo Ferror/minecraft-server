@@ -7,7 +7,8 @@ services:
       - 25565:25565
     environment:
       EULA: "TRUE"
-      MEMORY: "3.5G"
+      INIT_MEMORY: "1GB"
+      MAX_MEMORY: "4GB"
     tty: true
     stdin_open: true
     restart: unless-stopped
