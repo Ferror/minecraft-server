@@ -8,7 +8,7 @@ services:
     environment:
       EULA: "TRUE"
       INIT_MEMORY: "1GB"
-      MAX_MEMORY: "3.5GB"
+      MAX_MEMORY: "3GB"
     tty: true
     stdin_open: true
     restart: unless-stopped
